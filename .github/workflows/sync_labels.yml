@@ -17,4 +17,4 @@ jobs:
       - name: Sync labels
         uses: b4b4r07/github-labeler@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_LABELER_TEST }}
