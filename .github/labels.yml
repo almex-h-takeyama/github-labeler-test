@@ -1,0 +1,13 @@
+labels:
+  - name: kind/proactive
+    description: Categorizes issue or PR as related to proactive tasks.
+    color: 9CCC65
+  - name: kind/reactive
+    description: Categorizes issue or PR as related to reactive tasks.
+    color: FFA000
+
+repos:
+  - name: takeyama-h1/github-labeler-test
+    labels:
+      - kind/proactive
+      - kind/reactive
