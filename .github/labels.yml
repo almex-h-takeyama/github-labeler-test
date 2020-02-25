@@ -5,6 +5,25 @@ labels:
   - name: kind/reactive
     description: Categorizes issue or PR as related to reactive tasks.
     color: FFA000
+  - name: "bug" 
+    color: CCCCCC
+  - name: "documentation" 
+    color: CCCCCC
+  - name: "duplicate" 
+    color: CCCCCC
+  - name: "enhancement" 
+    color: CCCCCC
+  - name: "good first issue" 
+    color: CCCCCC
+  - name: "help wanted" 
+    color: CCCCCC
+  - name: "invalid" 
+    color: CCCCCC
+  - name: "question" 
+    color: CCCCCC
+  - name: "wontfix"
+    color: CCCCCC
+
 
 repos:
   - name: takeyama-h1/github-labeler-test
@@ -15,3 +34,4 @@ repos:
     labels:
       - kind/proactive
       - kind/reactive
+
