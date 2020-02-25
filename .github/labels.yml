@@ -11,3 +11,7 @@ repos:
     labels:
       - kind/proactive
       - kind/reactive
+  - name: takeyama-h1/hello-world
+    labels:
+      - kind/proactive
+      - kind/reactive
