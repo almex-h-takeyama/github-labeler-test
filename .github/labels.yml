@@ -5,24 +5,33 @@ labels:
   - name: kind/reactive
     description: Categorizes issue or PR as related to reactive tasks.
     color: FFA000
-  - name: "bug" 
-    color: CCCCCC
-  - name: "documentation" 
-    color: CCCCCC
+  - name: "bug"
+    description: Something isn't working
+    color: d73a4a
+  - name: "documentation"
+    description: Improvements or additions to documentation
+    color: 0075ca
   - name: "duplicate" 
-    color: CCCCCC
+    description: This issue or pull request already exists
+    color: cfd3d7
   - name: "enhancement" 
-    color: CCCCCC
+    description: New feature or request
+    color: a2eeef
   - name: "good first issue" 
-    color: CCCCCC
+    description: Good for newcomers
+    color: 7057ff
   - name: "help wanted" 
-    color: CCCCCC
+    description: Extra attention is needed
+    color: 008672
   - name: "invalid" 
-    color: CCCCCC
+    description: This doesn't seem right
+    color: e4e669
   - name: "question" 
-    color: CCCCCC
+    description: Further information is requested
+    color: d876e3
   - name: "wontfix"
-    color: CCCCCC
+    description: This will not be worked on
+    color: ffffff
 
 
 repos:
@@ -30,8 +39,25 @@ repos:
     labels:
       - kind/proactive
       - kind/reactive
+      - bug
+      - documentation 
+      - duplicate
+      - enhancement
+      - good first issue
+      - help wanted
+      - invalid
+      - question
+      - wontfix
   - name: takeyama-h1/hello-world
     labels:
       - kind/proactive
       - kind/reactive
-
+      - bug
+      - documentation 
+      - duplicate
+      - enhancement
+      - good first issue
+      - help wanted
+      - invalid
+      - question
+      - wontfix
